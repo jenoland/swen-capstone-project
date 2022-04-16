@@ -14,10 +14,4 @@ namespace swen_capstone_project.Models
         public DateTime Created { get; set; }
 
     }
-
-    public enum UserType
-    {
-        Teacher,
-        Student
-    }
 }
