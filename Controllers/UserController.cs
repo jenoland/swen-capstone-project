@@ -1,21 +1,24 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Configuration;
 
 namespace swen_capstone_project.Controllers;
 
-[ApiController]
 [Route("[controller]")]
-public class UserController : ControllerBase
+[ApiController]
+
+public class UserController : Controller
 {
     private static readonly string[] Summaries = new[]
     {
         "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
     };
-
+    private readonly IConfiguration _configuration;
     private readonly ILogger<UserController> _logger;
 
-    public UserController(ILogger<UserController> logger)
+    public UserController(ILogger<UserController> logger, IConfiguration configuration)
     {
         _logger = logger;
+        _configuration = configuration;
     }
 
     [HttpGet]

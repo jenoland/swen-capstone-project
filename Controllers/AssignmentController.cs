@@ -2,9 +2,9 @@
 
 namespace swen_capstone_project.Controllers;
 
-[ApiController]
 [Route("[controller]")]
-public class AssignmentController : ControllerBase
+[ApiController]
+public class AssignmentController : Controller
 {
     private static readonly string[] Summaries = new[]
     {

@@ -9,8 +9,8 @@ export class AssignmentViewComponent {
   public forecasts: WeatherForecast[] = [];
 
   constructor(http: HttpClient, @Inject('BASE_URL') baseUrl: string) {
-    http.get<WeatherForecast[]>(baseUrl + 'weatherforecast').subscribe(result => {
-      this.forecasts = result;
+    http.get(baseUrl + 'assignment').subscribe(result => {
+      console.log('success');
     }, error => console.error(error));
   }
 }
