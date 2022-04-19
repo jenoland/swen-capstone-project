@@ -229,3 +229,10 @@ _Pvt_Extensions
 
 # FAKE - F# Make
 .fake/
+ClientApp/.angular/cache/13.3.1/angular-webpack/f54dee19cdbda6ecb09f07a07aa3b5448d5ae494/0.pack
+ClientApp/.angular/cache/13.3.1/angular-webpack/f54dee19cdbda6ecb09f07a07aa3b5448d5ae494/index.pack
+ClientApp/.angular/cache/13.3.1/babel-webpack/3123bcef6e7e35afd0d98ddc7f15b54d.json
+ClientApp/.angular/cache/13.3.1/babel-webpack/5631d1463638056d7530eebde2bafe3b.json
+ClientApp/.angular/cache/13.3.1/babel-webpack/6459a2948e762e201c3eeedf9d76e807.json
+ClientApp/.angular/cache/13.3.1/babel-webpack/cc1811255220a1c3f47ebeb3b563bac1.json
+ClientApp/.angular/cache/13.3.1/babel-webpack/e5c582b3239a1e2ad56f9a85077646ef.json
